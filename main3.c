@@ -43,7 +43,7 @@ int main (int arg, char** argv) {
     memset(table, -1, sizeof(table));
     // Physical array represents physical memory
     int8_t physical[65536] = {0};
-    // Keeps track of the number page faults (Not sure if we're supposed to print this out or not)
+    // Keeps track of the number page faults
     int faults = 0;
 
 
